@@ -44,11 +44,12 @@ int main()
 			std::cout << "Exception: " << e.what() << "\n";
 		}
 		catch (int e) {
-			std::cout << "Exception: " << e << "\n";
+			std::cout << "Other Exception\n";
 		}
 		catch (std::exception& e) {
 			std::cout << "Exception: " << e.what() << "\n";
 		}
+		catch (...) { std::cout << "Other Exception\n"; }
 	}
 
 	std::cout << Server::getLoad() << std::endl;
