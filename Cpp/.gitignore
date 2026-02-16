@@ -1,0 +1,38 @@
+# Ignorer le dossier Visual Studio
+.vs/
+
+# Ignorer tous les fichiers qui commencent par "Cpp"
+Cpp*
+
+# Ignorer le fichier resource.h
+resource.h
+
+# Fichiers temporaires Visual Studio
+*.user
+*.aps
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Fichiers de build
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.log
+*.tlog
+*.cache
+*.ipch
+
+# CMake (si jamais tu en ajoutes plus tard)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
