@@ -19,7 +19,6 @@ void printKMax(std::vector<int>& arr, int n, int k) {
 			std::cout << arr[dq.front()] << " ";
 	}
 		
-	
 	std::cout << "\n";
 }
 
