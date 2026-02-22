@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But keep directories
+!*/
+
+# Keep only SQL files
+!*.sql
+
+!README.md
+!.gitignore
